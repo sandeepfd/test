@@ -1,6 +1,6 @@
 name: Update labels
 on:
-  project_card:
+  projects_v2:
     types:
       - moved
       - edited
