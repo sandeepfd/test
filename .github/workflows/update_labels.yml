@@ -1,9 +1,6 @@
 name: Update labels
 on:
-  projects_v2:
-    types:
-      - moved
-      - edited
+  project_card: [moved]
 jobs:
   remove_label:
     runs-on: ubuntu-latest
