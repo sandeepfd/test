@@ -1,7 +1,8 @@
 name: Update labels
 on:
-  projects_v2_item:
+  project_card:
     types:
+      - moved
       - edited
 jobs:
   remove_label:
