@@ -22,3 +22,7 @@ jobs:
             //  repo: context.repo.repo,
             //  name: ["needs review123"]
             //})
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: hmarr/debug-action@v2
