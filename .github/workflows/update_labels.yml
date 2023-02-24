@@ -1,6 +1,7 @@
 name: Update labels
 on:
-  push
+  project_card:
+    types: ['moved','created']
 jobs:
   remove_label:
     runs-on: ubuntu-latest
