@@ -1,6 +1,7 @@
 name: Update labels
 on:
-  push
+  project_card:
+    types: [moved,created]
 env:
   ACTIONS_STEP_DEBUG: true
 jobs:
