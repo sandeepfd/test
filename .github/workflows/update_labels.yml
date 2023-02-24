@@ -1,7 +1,7 @@
 name: Update labels
 on:
   project_card:
-    types: ['moved','created']
+    types: [moved,created]
 jobs:
   remove_label:
     runs-on: ubuntu-latest
